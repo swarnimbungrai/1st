@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	input[type=text], input[type=password]{
+	display:block;}
+	div{
+	 width:200px;
+	 padding:10px;
+	 }	
+</style>
+</head>
+<body>
+<div style = "background-color:lightblue; 
+border:1px solid; 
+margin-left: 450px;
+margin-top: 100px;
+border-radius: 25px">
+
+<form action="registration" method="post">
+	<div>
+		<label for="studentId"> Student Id</label>
+		<input type="text" name="stdId" id="studentId">
+	</div>
+	<div>
+		<label for="studentName"> Student Name</label>
+		<input type="text" name="stdName" id="studentName">
+	</div>
+	<div>
+		<label> Gender:</label>
+		<input type="radio" name="gender" id="maleGender" value="Male"/>
+		<label for="maleGender">Male</label>
+		
+		<input type="radio" name="gender" id="femaleGender" value="Female"/>
+		<label for="femaleGender">Female</label>	
+	</div>
+	<div>
+		<label for="password"> Password</label>
+		<br>
+		<input type="password" name="password" id="password">
+	</div>
+	<div>
+	<input type="submit">
+	</div>
+</form>
+</div>
+</body>
+</html>
